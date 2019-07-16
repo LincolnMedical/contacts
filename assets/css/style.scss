@@ -1,129 +1,82 @@
-/* FontAwesome for working BootSnippet :> */
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-#team {
-    background: #eee !important;
-}
+<div class="container">
+                    <div class="row">
+                        <div class="heading-title text-center">
+                            <h3 class="text-uppercase">Our professionals </h3>
+                            <p class="p-top-30 half-txt">Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend. </p>
+                        </div>
 
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: #108d6f;
-    border-color: #108d6f;
-    box-shadow: none;
-    outline: none;
-}
+                        <div class="col-md-4 col-sm-4">
+                            <div class="team-member">
+                                <div class="team-img">
+                                    <img src="https://image.freepik.com/free-photo/man-standing-with-a-black-t-shirt_1187-1045.jpg" alt="team member" class="img-responsive">
+                                </div>
+                                <div class="team-hover">
+                                    <div class="desk">
+                                        <h4>Hi There !</h4>
+                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
+                                    </div>
+                                    <div class="s-link">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-title">
+                                <h5>Martin Smith</h5>
+                                <span>founder & ceo</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="team-member">
+                                <div class="team-img">
+                                    <img src="https://image.freepik.com/free-photo/elegant-man-with-thumbs-up_1149-1595.jpg" alt="team member" class="img-responsive">
+                                </div>
+                                <div class="team-hover">
+                                    <div class="desk">
+                                        <h4>Hello World</h4>
+                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
+                                    </div>
+                                    <div class="s-link">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-title">
+                                <h5>Franklin Harbet</h5>
+                                <span>HR Manager</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="team-member">
+                                <div class="team-img">
+                                    <img src="https://image.freepik.com/free-photo/well-dressed-executive-with-crossed-arms_1098-3930.jpg" alt="team member" class="img-responsive">
+                                </div>
+                                <div class="team-hover">
+                                    <div class="desk">
+                                        <h4>I love to design</h4>
+                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
+                                    </div>
+                                    <div class="s-link">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-title">
+                                <h5>Linda Anderson</h5>
+                                <span>Marketing Manager</span>
+                            </div>
+                        </div>
 
-.btn-primary {
-    color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
-}
+                    </div>
 
-section {
-    padding: 60px 0;
-}
-
-section .section-title {
-    text-align: center;
-    color: #007b5e;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
-
-#team .card {
-    border: none;
-    background: #ffffff;
-}
-
-.image-flip:hover .backside,
-.image-flip.hover .backside {
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    border-radius: .25rem;
-}
-
-.image-flip:hover .frontside,
-.image-flip.hover .frontside {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-.mainflip {
-    -webkit-transition: 1s;
-    -webkit-transform-style: preserve-3d;
-    -ms-transition: 1s;
-    -moz-transition: 1s;
-    -moz-transform: perspective(1000px);
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transition: 1s;
-    transform-style: preserve-3d;
-    position: relative;
-}
-
-.frontside {
-    position: relative;
-    -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    z-index: 2;
-    margin-bottom: 30px;
-}
-
-.backside {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: white;
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-}
-
-.frontside,
-.backside {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition: 1s;
-    -webkit-transform-style: preserve-3d;
-    -moz-transition: 1s;
-    -moz-transform-style: preserve-3d;
-    -o-transition: 1s;
-    -o-transform-style: preserve-3d;
-    -ms-transition: 1s;
-    -ms-transform-style: preserve-3d;
-    transition: 1s;
-    transform-style: preserve-3d;
-}
-
-.frontside .card,
-.backside .card {
-    min-height: 312px;
-}
-
-.backside .card a {
-    font-size: 18px;
-    color: #007b5e !important;
-}
-
-.frontside .card .card-title,
-.backside .card .card-title {
-    color: #007b5e !important;
-}
-
-.frontside .card .card-body img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-}
+                </div>
